@@ -117,3 +117,24 @@ line-height: 2 (times of default spacing)
 text-align: right center
 
 text -decoration: underline line-through
+
+
+# multiple class
+
+
+# center a heading
+for block elements that already takes the whole line, we can center the content by using text-align
+
+differenc between margin for inline element and block element
+
+image inline block
+
+max-width 
+width 80%
+
+text-transform: uppercase
+letter-spacing: 
+
+rem, root element
+
+hr horizontal rule
