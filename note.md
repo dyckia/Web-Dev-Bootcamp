@@ -138,3 +138,13 @@ letter-spacing:
 rem, root element
 
 hr horizontal rule
+
+much faster
+
+https://www.youtube.com/watch?v=NHHh0sj1uKY
+
+lego pieces
+
+what is bootstrap
+
+a hosted version 
