@@ -148,3 +148,6 @@ lego pieces
 what is bootstrap
 
 a hosted version 
+
+nested grid
+lg the width of the view/browser, not its parent element
