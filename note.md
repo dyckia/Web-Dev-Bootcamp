@@ -160,3 +160,7 @@ background center
 background cover 
 
 html 100%
+
+
+justifty content start end center between around
+align start end center baseline strecth
