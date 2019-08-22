@@ -151,3 +151,12 @@ a hosted version
 
 nested grid
 lg the width of the view/browser, not its parent element
+
+# h1, h3
+
+
+background url
+background center
+background cover 
+
+html 100%
