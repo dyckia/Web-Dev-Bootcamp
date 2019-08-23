@@ -163,4 +163,23 @@ html 100%
 
 
 justifty content start end center between around
-align start end center baseline strecth
+align start end center baseline strecth 
+
+
+container-fluid
+img-fluid
+
+media query 
+
+@media (max-width: 1200px) {
+  body {
+
+  }
+}
+if screen width is less than 1200px, do xxx
+
+
+order-2
+
+
+css transition: background
