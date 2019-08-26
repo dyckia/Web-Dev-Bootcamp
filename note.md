@@ -159,7 +159,9 @@ background url
 background center
 background cover 
 
-html 100%
+html {
+    height: 100%
+}
 
 
 justifty content start end center between around
@@ -178,8 +180,67 @@ media query
 }
 if screen width is less than 1200px, do xxx
 
-
 order-2
 
-
 css transition: background
+
+if don't want select option to be the value that is sent, add attribute value 
+
+width: 100px 50% (percentage of the parent body)
+
+padding: 10px
+
+padding-left:
+
+margin: top right bottom left;
+
+margin: 0 auto 0 auto; center
+
+margin: top&bottom left&right
+
+px is needed unless 0
+
+prompt saves input as string instead of number
+
+typeof method
+
+typeof guess 
+
+Number(string)
+
+string.indexOf("")
+-1
+
+for loops 
+for(var i=0; i<6; i++) {
+    console.log(i);
+}
+
+function funcName(par1, par2) {
+    //do something;
+}
+
+run a function
+funcName();
+
+argument
+
+//if funcName is runned without the parentheisis, 
+if will show the whole function
+
+if there are multiple parameters and parameters are not all given, the value for the remaining parameters will be undefined
+
+if no return statement in a function, it will return undefined
+
+string.toUpperCase()
+string.slice(1) //every character from index 1
+string.charAt(0)
+
+typeof is an operator, it is not a function thus does not require (), it returns a string indicating the type
+
+function declaration vs function expression
+
+
+*= shortcut
+
+child scope has access to parent scope
