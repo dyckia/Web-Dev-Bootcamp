@@ -110,5 +110,13 @@ link.setAttribute("href", "www.bing.com");
 
 Event types:
 `"click"`
+`"change"`
+`"mouseover"`
+'"mouseout"`
 
 inside a listener, this refers the object to which the listener is added
+the element that the listener is listening on 
+
+retrieve input value
+ var input = 
+ input //string

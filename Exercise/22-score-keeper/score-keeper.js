@@ -3,6 +3,7 @@ var btnTwo = document.querySelector("#p2");
 var btnReset = document.getElementById("reset");
 var displayOne = document.querySelector("#displayOne");
 var displayTwo = document.querySelector("#displayTwo");
+var displayWinningScore = document.querySelector("#displayWinningScore");
 var numInput = document.querySelector("input");
 var scoreOne = 0;
 var scoreTwo = 0;
@@ -31,7 +32,9 @@ btnTwo.addEventListener("click", function () {
     }
 });
 
-btnReset.addEventListener("click", function() {
+btnReset.addEventListener("click", reset);
+
+function reset() {
     scoreOne = 0;
     scoreTwo = 0;
     gameOver = false;
@@ -39,8 +42,13 @@ btnReset.addEventListener("click", function() {
     displayTwo.textContent = 0;
     displayOne.classList.remove("winner");
     displayTwo.classList.remove("winner");
-});
+}
 
 numInput.addEventListener("change", function(){
-    alert("haha");
+    //update display
+    displayWinningScore.textContent = this.value;
+    //change winning score
+    winningScore = Number(this.value);
+    //reset the game when winning score is changed
+    reset();
 })

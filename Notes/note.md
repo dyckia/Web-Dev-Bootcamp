@@ -182,3 +182,13 @@ function declaration vs function expression
 *= shortcut
 
 child scope has access to parent scope
+
+console.log(a1, a2) //output: a1 a2
+
+anonymous function 
+
+function() {
+  reset();
+}
+
+css: opacity: 0.5;
