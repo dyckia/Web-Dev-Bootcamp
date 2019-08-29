@@ -56,6 +56,10 @@ if (condition) {
     statement;
 }
 
+if (undefined) {
+
+} undefined is treated false
+
 Math.sqrt
 Number()
 

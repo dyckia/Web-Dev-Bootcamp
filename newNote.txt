@@ -1,0 +1,83 @@
+<br> break new line
+
+css button border none 
+background none
+outline none  //hide the focus outline
+
+transition: property duration
+
+condition ? true : false
+
+
+too heavy
+
+overkill
+
+vanilla js plain js writing js without jquery
+
+
+
+$()
+returns a list
+
+
+
+$("selector").css("property", "value")
+
+we can also pass in an object with styles
+
+var styles = { 
+    backgroundColor: "pink",
+    fontWeight: "bold"
+};
+
+
+or .css({
+
+})
+
+json structure 
+
+use , instead of ;
+use camel-case instead of -
+
+for .css("property", "value") just use regular property name
+.css("font-size", "20px")
+
+
+can apply all elements in the list at once, instead of using a for loop
+
+can chain together
+.css().css()
+
+put js library in the head
+
+
+jQuery shorthand
+:first-of-type   :first (a little bit slower
+
+
+css first-of-type only works with element types (tag)
+
+.last() the laste element of the mathced elements
+.first()
+
+
+val()
+input value
+
+text()
+
+$("li") concatinate text
+change all at once
+if () return the text
+if ("") return the jQuery object
+html safe
+
+attr()
+can not be empty
+
+html()
+addClass()
+removeClass()
+toggleClass()

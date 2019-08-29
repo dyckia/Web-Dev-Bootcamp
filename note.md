@@ -244,3 +244,5 @@ function declaration vs function expression
 *= shortcut
 
 child scope has access to parent scope
+
+css display property none block inline
