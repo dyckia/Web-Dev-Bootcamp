@@ -1,0 +1,22 @@
+sites compiled on the server side where the server is pulling together or constructing a web page before it's sent back as a response 
+same html css js content everytime for a url
+
+every request has a verb/type 
+
+touch newfile
+
+rm -rf
+
+touch file1 file2
+
+npm install 
+var varName = require("pkg-name")
+
+
+framework vs library
+
+framework: the control flow is already in the framework 
+less control
+faster
+
+library a collection of functionality that the user can call
