@@ -108,11 +108,7 @@ link.setAttribute("href", "www.bing.com");
 ## DOM Events
 `object.addEventListener(type, functionToCall);`
 
-Event types:
-`"click"`
-`"change"`
-`"mouseover"`
-'"mouseout"`
+Event types:`"click"`, `"change"`, `"mouseover"`, `"mouseout"`
 
 inside a listener, this refers the object to which the listener is added
 the element that the listener is listening on 
@@ -120,3 +116,7 @@ the element that the listener is listening on
 retrieve input value
  var input = 
  input //string
+
+
+
+[This is a link](www.google.com)

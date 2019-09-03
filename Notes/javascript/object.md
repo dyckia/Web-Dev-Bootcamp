@@ -1,4 +1,11 @@
-## Declaration
+## Creating an Object
+### Object literal
+
+
+### Object constructor
+
+
+
 
 var person = {
     name = "Jason",
