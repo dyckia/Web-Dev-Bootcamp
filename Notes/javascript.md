@@ -68,3 +68,6 @@ a % math.sqrt(a) === 0
 
 https://coderwall.com/p/5tlhmw/converting-strings-to-number-in-javascript-pitfalls
 https://www.youtube.com/watch?v=enNIk06AcZw
+
+
+typeof body

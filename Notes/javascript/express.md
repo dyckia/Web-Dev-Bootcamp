@@ -29,6 +29,8 @@ access parameters value
 req.params.subredditName
 
 ## app.listen
+app.listen(3000)
+
 
 ## res.send()
 <h1>
@@ -48,3 +50,5 @@ npm install body-parser --save
 
 bodyParser = require("body-parser");
 app.use(bodyParser.urlencoded({extended: true}));
+
+res.redirect("path") //default method GET

@@ -1,0 +1,1 @@
+get post should be the same name
