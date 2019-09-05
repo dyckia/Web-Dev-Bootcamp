@@ -21,3 +21,8 @@ faster
 
 library a collection of functionality that the user can call
 
+SQL(relational)
+Tabular database  
+Not flexible 
+Add new attribute, has to give all value
+Define a pattern, and follow that closely 
