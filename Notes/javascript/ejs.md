@@ -21,3 +21,7 @@ app.set("view engine", "ejs")
 
 variable as attribute value
 src="<%= %>"
+
+<a class="btn btn-primary" href=<%= `/campgrounds/${campground._id}` %>>View Details</a>
+
+can be inside a string "/campgrounds/<%= %>"

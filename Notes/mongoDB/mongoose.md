@@ -4,10 +4,10 @@
 const mongoose = require("mongoose");
 
 // connect to a local database
-mongoose.connect("mongodb://localhost/dbName");
+mongoose.connect('mongodb://localhost:27017/test', {useNewUrlParser: true});
 
 // connect to mongoDB atlas
-mongoose.connect(mongoUrl);
+mongoose.connect(mongoUrl, {useNewUrlParser: true});
 ```
 
 ## Define a schema
@@ -70,12 +70,11 @@ Dog.create({
 });
 ```
 
-
-
 ```javascript
 Dog.find({}, (err, result) => {
   
 });
 // result is an array of the selected objects
-```
 
+Dog.findById(id, (err, result) => {} );
+```

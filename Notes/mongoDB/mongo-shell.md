@@ -55,4 +55,6 @@ db.collectionName.update({name: "lucy"}, {$set: {gender: "female"}})
 ```javascript
 db.collectionName.remove({city: "ottawa"})
 // remove all selected objects
+
+db.collectionName.drop();
 ```
