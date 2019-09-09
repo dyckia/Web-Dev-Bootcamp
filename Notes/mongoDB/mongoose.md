@@ -13,10 +13,11 @@ mongoose.connect(mongoUrl, {useNewUrlParser: true});
 ## Define a schema
 
 ```javascript
-const dogSchema = new mongoose.Schema({
+const dogSchema = new mongoose.Schema({ //capital S
   name: String,
   age: Number,
-  breed: String
+  breed: String,
+  bDate: {type: Date, default: Date.now  //define deault value
 });
 ```
 
