@@ -32,3 +32,11 @@ const expressSanitizer = require('express-sanitizer');
 app.use(expressSanitizer());
 
 const sanitizedString = req.sanitize(req.body.propertyToSanitize);
+
+posts: [postSchema]
+
+order matters
+
+newUser.posts.push()
+
+newUser.save()
