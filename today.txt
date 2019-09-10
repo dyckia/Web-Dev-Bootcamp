@@ -1,0 +1,34 @@
+<%- %> render the result
+
+date.toDateString()
+
+substring(0, 100) all lowercase
+
+<input value="something">
+
+get request    query string
+
+html forms does not support PUT and DELETE request
+
+only support GET and POST
+
+fake the PUT resquest by using method-override method
+
+action="path?_method=PUT" method="POST"
+
+npm install method-override
+
+methodOverride = require("method-override")
+
+app.use(methodOverride("_method"))
+
+modelName.findByIdAndUpdate(id, newData, (err, updatedBlog))
+
+modelName.findByIdAndRemove(id, (err))
+
+npm install express-sanitizer
+
+const expressSanitizer = require('express-sanitizer');
+app.use(expressSanitizer());
+
+const sanitizedString = req.sanitize(req.body.propertyToSanitize);
